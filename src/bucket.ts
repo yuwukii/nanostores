@@ -1,6 +1,6 @@
 import { EventEmitter } from "https://deno.land/std@0.92.0/node/events.ts";
 
-export class StorageBucket extends EventEmitter {
+export class Store extends EventEmitter {
   private stdTTL: number;
   private checkperiod: number;
   private maxKeys: number;

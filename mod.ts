@@ -1,1 +1,1 @@
-export { StorageBucket } from "./src/bucket.ts";
+export { Store } from "./src/bucket.ts";
